@@ -1,0 +1,11 @@
+
+#!/bin/bash
+function line(){
+ echo "*************************************************"
+}
+ 
+echo "Username : $(echo $USER)"
+line 
+ 
+echo "Date and time : $(date)"
+line
